@@ -392,7 +392,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"cost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "ギャングのチャットがギャングに所属すると、ギャングチャットが有効になります。",
+ 	 	 	 	 	"trans": "ギャングチャットはギャングに所属すると、ギャングチャットが有効になります。",
  	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
  	 	 	 	},
  	 	 	 	"createButton": {
@@ -610,31 +610,31 @@
  	 	"communityItemLore": {
  	 	 	"noLoreButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Loreを作成する",
+ 	 	 	 	 	"trans": "伝承を作成する",
  	 	 	 	 	"eng": "Create Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "この項目のコミュニティLoreはまだありません. 作成してみませんか？",
+ 	 	 	 	 	"trans": "この項目のコミュニティ伝承はまだありません. 作成してみませんか？",
  	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "コミュニティLore",
+ 	 	 	 	 	"trans": "コミュニティの伝承",
  	 	 	 	 	"eng": "Community Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "このアイテムのコミュニティLoreを開きます",
+ 	 	 	 	 	"trans": "このアイテムのコミュニティの伝承を開く",
  	 	 	 	 	"eng": "Open the community lore for this item"
  	 	 	 	}
  	 	 	},
  	 	 	"editButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "このLoreを編集する",
+ 	 	 	 	 	"trans": "この伝承を編集する",
  	 	 	 	 	"eng": "edit this lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "このコミュニティLoreを編集する",
+ 	 	 	 	 	"trans": "このコミュニティの伝承を編集する",
  	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
@@ -785,7 +785,7 @@
  	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
  	 	 	},
  	 	 	"travel": {
- 	 	 	 	"trans": "トラベル",
+ 	 	 	 	"trans": "移動する",
  	 	 	 	"eng": "Travel"
  	 	 	}
  	 	},
@@ -880,7 +880,7 @@
  	 	 	 	"eng": "REDACTED"
  	 	 	},
  	 	 	"decoration1": {
- 	 	 	 	"trans": "信頼",
+ 	 	 	 	"trans": "機密性",
  	 	 	 	"eng": "confidential"
  	 	 	},
  	 	 	"decoration2": {
@@ -946,7 +946,7 @@
  	 	 	 	 	"eng": "Give Street Cred"
  	 	 	 	},
  	 	 	 	"report": {
- 	 	 	 	 	"trans": "レポートプレーヤー",
+ 	 	 	 	 	"trans": "プレイヤーを通報",
  	 	 	 	 	"eng": "Report Player"
  	 	 	 	}
  	 	 	},
@@ -1557,7 +1557,7 @@
  	 	 	 	 	"eng": "Assign Rank"
  	 	 	 	},
  	 	 	 	"kickPlayer": {
- 	 	 	 	 	"trans": "除名する",
+ 	 	 	 	 	"trans": "プレイヤーを除名する",
  	 	 	 	 	"eng": "kick player"
  	 	 	 	}
  	 	 	},
@@ -1899,7 +1899,7 @@
  	 	 	 	 	"eng": "You need to insert Calibration Core to upgrade your equipment."
  	 	 	 	},
  	 	 	 	"noCore": {
- 	 	 	 	 	"trans": "キャリブレーションコアはありません",
+ 	 	 	 	 	"trans": "キャリブレーションコアを所持していません",
  	 	 	 	 	"eng": "You don\\'t have any Calibration Core"
  	 	 	 	}
  	 	 	},
@@ -1975,7 +1975,7 @@
  	 	 	 	"eng": "Expires in ${date}"
  	 	 	},
  	 	 	"empty": {
- 	 	 	 	"trans": "からっぽです",
+ 	 	 	 	"trans": "何も届いていない",
  	 	 	 	"eng": "There is no item in your item inbox"
  	 	 	},
  	 	 	"getAllItems": {
@@ -2221,7 +2221,7 @@
  	 	 	 	 	"eng": "Please select an container to unlock"
  	 	 	 	},
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "容器",
+ 	 	 	 	 	"trans": "コンテナ",
  	 	 	 	 	"eng": "Container"
  	 	 	 	},
  	 	 	 	"trans": "コンテナを選択します",
@@ -2393,7 +2393,7 @@
  	 	},
  	 	"characterNameError": {
  	 	 	"invalidChar": {
- 	 	 	 	"trans": "名前には英語の文字, 数字, 「_」のみを含めることができます",
+ 	 	 	 	"trans": "名前にはa~zのアルファベット, 数字, 「_」のみを含めることができます",
  	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
  	 	 	},
  	 	 	"hasSpace": {
@@ -2572,7 +2572,7 @@
  	 	},
  	 	"bargain": {
  	 	 	"name": {
- 	 	 	 	"trans": "バーゲン",
+ 	 	 	 	"trans": "バーゲンSALE",
  	 	 	 	"eng": "Bargain"
  	 	 	},
  	 	 	"description": {
@@ -2734,7 +2734,7 @@
  	 	},
  	 	"m1V": {
  	 	 	"name": {
- 	 	 	 	"trans": "破滅",
+ 	 	 	 	"trans": "致命",
  	 	 	 	"eng": "Lethal"
  	 	 	},
  	 	 	"description": {
@@ -2754,7 +2754,7 @@
  	 	},
  	 	"m3V": {
  	 	 	"name": {
- 	 	 	 	"trans": "俄造り",
+ 	 	 	 	"trans": "その場しのぎ",
  	 	 	 	"eng": "Makeshift"
  	 	 	},
  	 	 	"description": {
@@ -2862,7 +2862,7 @@
  	 	},
  	 	"newbie": {
  	 	 	"name": {
- 	 	 	 	"trans": "幸運な新参物",
+ 	 	 	 	"trans": "幸運なニュービー",
  	 	 	 	"eng": "Newbie with benefit"
  	 	 	},
  	 	 	"description": {
@@ -3228,7 +3228,7 @@
  	 	 	"eng": "Elite"
  	 	},
  	 	"donation4": {
- 	 	 	"trans": "伝説の",
+ 	 	 	"trans": "伝説",
  	 	 	"eng": "Legendary"
  	 	},
  	 	"donation5": {
@@ -3252,7 +3252,7 @@
  	 	 	"eng": "Prestige"
  	 	},
  	 	"donation10": {
- 	 	 	"trans": "名声",
+ 	 	 	"trans": "名誉",
  	 	 	"eng": "Prestige"
  	 	},
  	 	"donation11": {
@@ -3695,7 +3695,7 @@
  	 	},
  	 	"mark2": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "妨害",
+ 	 	 	 	"trans": "阻害",
  	 	 	 	"eng": "Disruptor"
  	 	 	},
  	 	 	"description": {
@@ -4475,7 +4475,7 @@
  	 	},
  	 	"halloweenItem": {
  	 	 	"name": {
- 	 	 	 	"trans": "Jack-O'-Lantern",
+ 	 	 	 	"trans": "ジャック・オー・ランタン",
  	 	 	 	"eng": "Jack-o'-lantern"
  	 	 	},
  	 	 	"description": {
@@ -4968,6 +4968,7 @@
  	 	 	 	 	"ブギーマン！？ ...なんだ, アンタか. びっくりしたよ",
  	 	 	 	 	"メイ…いい加減その悪趣味なタトゥーを変えたらどうだい？ 片想いで相手の名前を入れるなんて……",
  	 	 	 	 	"メイ, 入ってくるときは裏から入ってくれよ. 周りの客に聞かれるのはまずいだろう？ ほら, 彼が見てる."
+ 
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"You will find the best gear here, trust me."
@@ -5600,7 +5601,7 @@
  	 	 	"eng": "Spamming"
  	 	},
  	 	"other": {
- 	 	 	"trans": "他の",
+ 	 	 	"trans": "その他",
  	 	 	"eng": "Other"
  	 	}
  	},
@@ -6347,7 +6348,7 @@
  	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
  	 	 	},
  	 	 	"title2": {
- 	 	 	 	"trans": "星何個ですか？",
+ 	 	 	 	"trans": "星は何個分ですか？",
  	 	 	 	"eng": "How many stars would you give?"
  	 	 	},
  	 	 	"badReview": {
@@ -6399,7 +6400,7 @@
  	 	},
  	 	"updateModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "アップデートがインストールされました",
+ 	 	 	 	"trans": "新しいデータがインストールされました",
  	 	 	 	"eng": "An update has been installed"
  	 	 	},
  	 	 	"description": {
@@ -6417,25 +6418,25 @@
  	"chatExploit": {
  	 	"loveWords": {
  	 	 	"trans": [
- 	 	 	 	"Love you",
- 	 	 	 	"You guys are great",
- 	 	 	 	"You guys are the best",
- 	 	 	 	"love yall",
- 	 	 	 	"You are amazing",
- 	 	 	 	"we are best friend",
- 	 	 	 	"Love you all",
- 	 	 	 	"you are great",
- 	 	 	 	"you the best",
- 	 	 	 	"we are awesome",
- 	 	 	 	"you are awesome",
- 	 	 	 	"have a nice day",
- 	 	 	 	"miss you",
- 	 	 	 	"miss you guys",
- 	 	 	 	"KYAAAAAAAAA",
- 	 	 	 	"wish you have nice day",
- 	 	 	 	"I love you",
- 	 	 	 	"can we hug?",
- 	 	 	 	"how much you love me?"
+ 	 	 	 	"愛してる……",
+ 	 	 	 	"お前ら…最高だよ！",
+ 	 	 	        "君たち最高だ！！",
+ 	 	 	 	"みんな大好き",
+ 	 	 	        "あなた素敵ね ",
+ 	 	 	 	"俺たち、親友…だろ？",
+ 	 	 	 	"ぜ~んぶ好き<3",
+ 	 	 	 	"ありがとう。呼んでくれただろう？聞こえたんだ",
+ 	 	 	 	"死ぬな。必ず生き延びろ",
+ 	 	 	 	"トンデモないことだなぁー！",
+ 	 	 	 	"ああ！う…美しすぎる！",
+ 	 	 	 	"「痛み」もブッ飛ぶこの衝撃…",
+ 	 	 	 	"これで今夜も………くつろいで熟睡できるな",
+ 	 	 	 	"フン！ おれにとっては誉め言葉よ",
+ 	 	 	 	"WRYYYYYYYY",
+ 	 	 	 	"ゴーストのない人形は哀しいもんだ。特に、赤い血の流れてる奴はな",
+ 	 	 	 	"月が綺麗ですね",
+ 	 	 	 	"良ぉお～～～～しよしよしよしよし",
+ 	 	 	 	"この場所に「神殿」を建てよう"
  	 	 	],
  	 	 	"eng": [
  	 	 	 	"Love you",
